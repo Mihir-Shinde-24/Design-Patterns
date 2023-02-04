@@ -1,9 +1,9 @@
-package abstract_factory_dp;
+package abstract_factory_dp.example_1;
 
-import abstract_factory_dp.components.GPU;
-import abstract_factory_dp.components.Monitor;
-import abstract_factory_dp.factories.Company;
-import abstract_factory_dp.factories.MsiManufacturer;
+import abstract_factory_dp.example_1.components.GPU;
+import abstract_factory_dp.example_1.components.Monitor;
+import abstract_factory_dp.example_1.factories.Company;
+import abstract_factory_dp.example_1.factories.MsiManufacturer;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package abstract_factory_dp.components;
+package abstract_factory_dp.example_1.components;
 
 public class MsiGPU implements GPU{
 
