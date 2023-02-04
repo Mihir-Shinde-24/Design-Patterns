@@ -1,10 +1,10 @@
 package observer_dp.example_1.Observers;
 
-public class User1 implements Observer{
+public class EmailAlert implements Observer{
 
 	private String email;
 
-	public User1(String email, String contact)
+	public EmailAlert(String email)
 	{
 		this.email = email;
 	}
@@ -14,6 +14,11 @@ public class User1 implements Observer{
 	{
 		// or we can directly print
 		sendEmail(email,text);
+	}
+	
+	public void sendEmail(String email, String text)
+	{
+		System.out.println("TO Email\t-> "+email+"\t: "+text);
 	}
 	
 
